@@ -245,3 +245,9 @@ textarea.form-control {
 .window-habits {
     margin-bottom: 30px;
 }
+
+@media only screen and (max-width: 450px) {
+    .p-text{
+        font-size: 40px;
+    }
+}
