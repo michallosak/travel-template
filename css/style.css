@@ -125,7 +125,7 @@ input[type="submit"] {
     letter-spacing: 3px;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     opacity: 0.8;
     transition: all 1s;
     cursor: pointer;
@@ -152,6 +152,7 @@ input#email {
     font-size: 20px;
     margin-top: 10px;
 }
+
 .text-img {
     width: 100%;
     position: absolute;
@@ -163,10 +164,12 @@ input#email {
     color: #ffffffa8;
     padding: 7px;
 }
+
 .window-trips {
     margin-bottom: 25px;
 }
-#food{
+
+#food {
     background: url("../img/bg/bg_food.jpg");
     background-size: cover;
     background-position: center center;
@@ -174,6 +177,7 @@ input#email {
     color: #fff;
     padding-top: 1px;
 }
+
 .window-foods {
     background: #1d1d1d;
     text-align: center;
@@ -185,17 +189,19 @@ input#email {
     letter-spacing: 2px;
     margin-bottom: 25px;
 }
+
 .title-habit {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     font-size: 30px;
     margin-top: 10px;
 }
+
 #habits-block {
     margin: 120px auto 50px auto;
 }
 
-#contact{
+#contact {
     background: url("../img/bg/bg_contact.jpg");
     background-position: center center;
     background-size: cover;
@@ -207,21 +213,24 @@ input#email {
 #contact-form {
     margin-top: 150px;
 }
+
 .input {
     border-radius: 0;
     background: #00000096;
     border-color: #3a3737;
 }
+
 .textarea {
     border-radius: 0;
     background: #00000096;
     border-color: #3a3737;
 }
+
 textarea.form-control {
     height: 200px;
 }
 
-.btn-success-2{
+.btn-success-2 {
     min-width: 100px;
     background: #6f8823;
     border: 0;
