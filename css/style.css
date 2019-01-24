@@ -1,0 +1,232 @@
+body {
+    margin: 0 !important;
+}
+
+header {
+    background: url("../img/bg/bg_header.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 768px;
+}
+
+::-webkit-scrollbar-button {
+    display: block;
+    height: 13px;
+    border-radius: 0px;
+    background-color: #AAA;
+}
+
+::-webkit-scrollbar-button:hover {
+    background-color: #AAA;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CCC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #CCC;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #efefef;
+}
+
+::-webkit-scrollbar-track:hover {
+    background-color: #CCC;
+}
+
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+#title-page {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #FFF;
+}
+
+#description-page {
+    font-family: 'Rock Salt', cursive;
+    color: #313131;
+    letter-spacing: 2px;
+    margin-top: -20px;
+}
+
+#content-header {
+    margin-top: 12%;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Rock Salt', cursive;
+    font-size: 13px;
+    letter-spacing: 4px;
+}
+
+.navbar-nav:hover .nav-link:hover {
+    opacity: 0.7;
+    transition: all 0.5s;
+}
+
+.title-page {
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 2px;
+    margin: 20px auto 15px;
+}
+
+.p-text {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    margin: 15px auto 15px;
+}
+
+#about-work {
+    background: url("../img/bg/bg_about.jpg");
+    background-size: cover;
+    height: 385px;
+    margin-top: 50px;
+    color: #FFF !important;
+    padding-top: 15px;
+}
+
+.title-post {
+    font-family: 'Luckiest Guy', cursive;
+    padding: 7px 0 2px;
+    border-bottom: 1px solid #00000087;
+    letter-spacing: 1px;
+}
+
+.description-post {
+    font-family: 'Rock Salt', cursive;
+    font-size: 10px;
+    padding: 4px 0 5px;
+}
+
+.date-post {
+    background: #000;
+    color: #fff;
+    padding: 4px;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#newsletter {
+    background: #1f1b1b;
+    height: 95px;
+}
+
+input[type="submit"] {
+    background: transparent;
+    border: 0;
+    color: #FFF;
+    font-family: 'Rock Salt', cursive;
+    font-size: 15px;
+    letter-spacing: 3px;
+}
+
+input[type="submit"]:hover{
+    opacity: 0.8;
+    transition: all 1s;
+    cursor: pointer;
+}
+
+input#email {
+    width: 75%;
+    padding: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border: 0;
+}
+
+.newsletter-form {
+    background: #6e8922;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.text-newsletter {
+    color: #fff;
+    font-family: 'Luckiest Guy', cursive;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text-img {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 40px;
+    margin-top: 43%;
+    background: #0000006e;
+    color: #ffffffa8;
+    padding: 7px;
+}
+.window-trips {
+    margin-bottom: 25px;
+}
+#food{
+    background: url("../img/bg/bg_food.jpg");
+    background-size: cover;
+    background-position: center center;
+    margin-top: 60px;
+    color: #fff;
+    padding-top: 1px;
+}
+.window-foods {
+    background: #1d1d1d;
+    text-align: center;
+    height: 150px;
+    line-height: 150px;
+    font-size: 35px;
+    border-radius: 3px;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+.title-habit {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+#habits-block {
+    margin: 120px auto 50px auto;
+}
+
+#contact{
+    background: url("../img/bg/bg_contact.jpg");
+    background-position: center center;
+    background-size: cover;
+    color: #fff;
+    padding-top: 1px;
+    padding-bottom: 200px;
+}
+
+#contact-form {
+    margin-top: 150px;
+}
+.input {
+    border-radius: 0;
+    background: #00000096;
+    border-color: #3a3737;
+}
+.textarea {
+    border-radius: 0;
+    background: #00000096;
+    border-color: #3a3737;
+}
+textarea.form-control {
+    height: 200px;
+}
+
+.btn-success-2{
+    min-width: 100px;
+    background: #6f8823;
+    border: 0;
+    font-family: 'Indie Flower', cursive;
+    font-size: 21px;
+    letter-spacing: 3px;
+    color: #fff;
+}
