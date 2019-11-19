@@ -54,28 +54,30 @@ header {
     margin-top: -20px;
 }
 
-#content-header {
-    margin-top: 12%;
-}
-
-.navbar-nav .nav-link {
-    font-family: 'Rock Salt', cursive;
-    font-size: 13px;
-    letter-spacing: 4px;
-}
-
-.navbar-nav:hover .nav-link:hover {
-    opacity: 0.7;
-    transition: all 0.5s;
-}
-
-.title-page {
+h1, h2, h3, h4, h5, h6 {
     font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 2px;
-    margin: 20px auto 15px;
 }
 
-.p-text {
+
+.title-home {
+    text-align: center;
+    margin-top: 14%;
+    color: #fff;
+}
+
+.title-home h1 {
+    font-size: 80px;
+}
+
+.title-home span {
+    font-family: 'Rock Salt', cursive;
+}
+
+.avatar img {
+    border-radius: 50%;
+}
+
+p {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     margin: 15px auto 15px;
@@ -84,170 +86,181 @@ header {
 #about-work {
     background: url("../img/bg/bg_about.jpg");
     background-size: cover;
-    height: 385px;
-    margin-top: 50px;
-    color: #FFF !important;
-    padding-top: 15px;
-}
-
-.title-post {
-    font-family: 'Luckiest Guy', cursive;
-    padding: 7px 0 2px;
-    border-bottom: 1px solid #00000087;
-    letter-spacing: 1px;
-}
-
-.description-post {
-    font-family: 'Rock Salt', cursive;
-    font-size: 10px;
-    padding: 4px 0 5px;
-}
-
-.date-post {
-    background: #000;
+    background-position: center;
     color: #fff;
-    padding: 4px;
-    font-size: 12px;
+}
+
+#about-work h2 {
+    padding-top: 20px;
+}
+
+#about-work p {
+    text-align: center;
+    padding-bottom: 30px;
+}
+.posts{
+    margin-bottom: 20px;
+}
+.posts .title {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+    font-family: 'Luckiest Guy', cursive;
     letter-spacing: 1px;
+    padding: 5px 0;
+}
+
+.posts .intro {
+    font-family: 'Rock Salt', cursive;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.posts .date {
+    background: #111;
+    color: #fff;
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 3px;
 }
 
 #newsletter {
     background: #1f1b1b;
-    height: 95px;
+    padding: 27px 0 10px;
+    color: #fff;
+    font-size: 19px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-input[type="submit"] {
-    background: transparent;
-    border: 0;
-    color: #FFF;
+.input-newsletter {
+    border-radius: 0;
+    border: 5px solid #6f8823;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.btn-newsletter {
+    border-radius: 0;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
     font-family: 'Rock Salt', cursive;
-    font-size: 15px;
+    border-color: #6f8823;
+}
+
+.newsletter-text {
+    font-family: 'Luckiest Guy', cursive;
     letter-spacing: 3px;
 }
 
-input[type="submit"]:hover {
-    opacity: 0.8;
-    transition: all 1s;
-    cursor: pointer;
+.btn-success {
+    background: #6f8823 !important;
 }
 
-input#email {
-    width: 75%;
-    padding: 5px;
-    border-bottom-left-radius: 5px;
-    border-top-left-radius: 5px;
-    border: 0;
-}
-
-.newsletter-form {
-    background: #6e8922;
-    padding: 6px;
-    border-radius: 5px;
-}
-
-.text-newsletter {
-    color: #fff;
-    font-family: 'Luckiest Guy', cursive;
-    letter-spacing: 1px;
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-.text-img {
+.win-trips {
+    background-size: cover;
     width: 100%;
-    position: absolute;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-size: 40px;
-    margin-top: 43%;
-    background: #0000006e;
-    color: #ffffffa8;
-    padding: 7px;
-}
-
-.window-trips {
+    position: relative;
     margin-bottom: 25px;
 }
 
-#food {
+.win-trips {
+   position: relative;
+}
+.win-trips .text {
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    position: absolute;
+    background: #00000091;
+    width: 100%;
+    color: #ddd;
+    font-size: 25px;
+    top: 42%;
+    font-family: 'Indie Flower', cursive;
+}
+.win-food {
+    background: #100d0d;
+    margin: 10px auto 13px;
+    height: 130px;
+    text-align: center;
+    line-height: 130px;
+    color: #d3d1d1;
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+}
+.win-habits .text {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    padding: 10px 0;
+}
+#food{
     background: url("../img/bg/bg_food.jpg");
     background-size: cover;
     background-position: center center;
-    margin-top: 60px;
-    color: #fff;
-    padding-top: 1px;
+    margin-top:50px;padding: 20px 0 20px;
 }
 
-.window-foods {
-    background: #1d1d1d;
-    text-align: center;
-    height: 150px;
-    line-height: 150px;
-    font-size: 35px;
-    border-radius: 3px;
-    font-family: 'Indie Flower', cursive;
-    letter-spacing: 2px;
-    margin-bottom: 25px;
-}
-
-.title-habit {
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-#habits-block {
-    margin: 120px auto 50px auto;
-}
-
-#contact {
+#contact{
+    background-position: center;
     background: url("../img/bg/bg_contact.jpg");
-    background-position: center center;
     background-size: cover;
-    color: #fff;
-    padding-top: 1px;
-    padding-bottom: 200px;
+    margin-top:50px;
+    padding: 20px 0 50px;
+    position: relative;
 }
-
-#contact-form {
-    margin-top: 150px;
-}
-
-.input {
-    border-radius: 0;
-    background: #00000096;
-    border-color: #3a3737;
-}
-
-.textarea {
-    border-radius: 0;
-    background: #00000096;
-    border-color: #3a3737;
-}
-
-textarea.form-control {
-    height: 200px;
-}
-
-.btn-success-2 {
-    min-width: 100px;
-    background: #6f8823;
-    border: 0;
+#contact button{
+    width: 100%;border:0;
     font-family: 'Indie Flower', cursive;
-    font-size: 21px;
-    letter-spacing: 3px;
-    color: #fff;
+    border-radius: 5px;
 }
-.window-posts {
-    margin-bottom: 25px;
+#contact .form-group{
+    margin-bottom: 10px;
 }
-.window-habits {
-    margin-bottom: 30px;
+#contact .title-page{color:#FFF}
+#contact textarea, #contact input {
+    border-radius: 5px;
+    background: #00000082;
+    border-color: #3b3b3b;
+    font-family: 'Indie Flower', cursive;
+}
+.title-page {
+    margin: 30px auto 30px;
+}
+#latest-posts .text-center a, #food .text-center a {
+    width: 150px;
+    margin: 30px auto;
+    font-family: 'Indie Flower', cursive;
+}
+.btn{
+    border: 0;
 }
 
-@media only screen and (max-width: 450px) {
-    .p-text{
-        font-size: 40px;
-    }
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+    font-family: "Indie Flower", cursive;
+}
+
+nav.navbar.navbar-expand-lg {
+    background: #00000054;
+}
+
+footer {
+    color: #a6a4a4;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    background: #000000a6;
+}
+
+@media screen and (max-width: 767px) {
+
+}
+.win-trips .img img {
+    width: 100%;
 }
